@@ -7,8 +7,8 @@
 */
 
 .member{
-    width: 300px;
-    height: 400px;
+    width: 210px;
+    height: 280px;
     display: inline-block;
 
 }
@@ -19,7 +19,7 @@
 }
 
 .members{
-	width: 90%;}
+	width: 100%;}
 
 /* Clear floats after image containers */
 .img-row::after {
@@ -3938,3 +3938,5 @@ input, select, textarea {
 			}
 
 		}
+
+#intro
