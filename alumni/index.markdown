@@ -3,20 +3,19 @@ layout: default
 title: Alumni
 ---
 <b> Ph.D. Students.</b> <br>
-Davis Blalock <br>
-Amy Zhao <br>
-Guha Balakrishnan  <br>
-Joel Brooks <br>
-Jen J. Gong<br>
-Yun Liu <br>
-Anima Singh <br>
-Zeeshan Syed <br>
-Gartheeban Ganeshapillai <br>
-Jenna Wiens <br>
-Alaa Kharbouch <br>
-Asfandyar Qureshi <br>
-Eugene Shih <br>
-Ali Shoeb <br>
+Maggie Makar, University of Michigan  <br>
+Davis Blalock, MosaicML <br>
+Amy Zhao, Oculus Research<br>
+Guha Balakrishnan, Rice University <br>
+Joel Brooks, Left Hand Robotics <br>
+Jen J. Gong, HEALTH[at]SCALE <br>
+Yun Liu, Google Health<br>
+Anima Singh, Google Health<br>
+Zeeshan Syed, HEALTH[at]SCALE <br>
+Gartheeban Ganeshapillai, BlackRock <br>
+Jenna Wiens, University of Michigan<br>
+Eugene Shih, Cambridge Mobile Telematics<br>
+Ali Shoeb, Wing<br>
 
 <b> MEng Students.</b> <br>
 Udgam Goyal <br>
