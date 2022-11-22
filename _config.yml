@@ -1,5 +1,5 @@
 name: Welcome to CAML.
-url: http://example.org
+url: http://ddig.csail.mit.edu
 description: The Clinical and Applied Machine Learning Group.
 
 permalink: /:year/:month/:day/:title/
