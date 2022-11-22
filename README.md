@@ -1,7 +1,7 @@
 CAML Lab Website
 ======================
 
-Updating a Photo
+📸 Updating a Photo
 ---------
 1. Add your photo under "images/people" directory.
 2. Create a markdown file named "<Your-Name>.md" in the "\_people" directory, containing the following (filled out with your information, instead).  If you have no website, fill this in as "https://ddig.csail.mit.edu".
@@ -18,7 +18,7 @@ website: "<YOUR WEBSITE>"
 Make sure to include http:// or https:// at the beginning of the website.
 
 
-Adding a Publication
+📈 Adding a Publication
 -------
 
 Congrats on the publication! Share it with the world by following these steps.
@@ -39,7 +39,7 @@ external-url: "<arxiv-link"
 <YOUR-ABSTRACT>
 ``` 
 
-Adding a News Item
+🚨 Adding a News Item
 --------------
 
 You're famous! Rise to higher levels of reknown by following these steps.
