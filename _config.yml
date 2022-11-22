@@ -1,0 +1,15 @@
+name: Welcome to CAML.
+url: http://example.org
+description: The Clinical and Applied Machine Learning Group.
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+include:
+  - _static
+
+collections:
+  - people

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Publications
+---
+
+<div id="blog-archives">
+
+	{% for post in site.posts %}
+		{% if post.type == "publication" %}
+			<article class="post">
+				<h1>
+					<a href="{{ post.url }}">{{ post.title }}</a> 
+				</h1>
+				<h2>
+					{{ post.authors }}. {{post.venue}}
+				</h2>
+				<h5><a href="{{ post.external-url }}">[Paper]</a> <a href="{{ post.url }}">[Abstract]</a> <a href="{{ post.url }}">[Code]</a> </h5>
+			</article>
+		{% endif %}
+	{% endfor %}
+
+</div>
