@@ -12,9 +12,24 @@ title: Publications
 					<a href="{{ post.url }}">{{ post.title }}</a> 
 				</h1>
 				<h2>
-					{{ post.authors }}. {{post.venue}}
+					{{ post.authors }}. {{post.venue}}.
 				</h2>
-				<h5><a href="{{ post.external-url }}">[Paper]</a> <a href="{{ post.url }}">[Abstract]</a> <a href="{{ post.url }}">[Code]</a> </h5>
+				<h5>
+					<a href="{{ post.external-url }}">[Paper]</a> <a href="{{ post.url }}">[Abstract]</a> 
+					{% if post.code %}
+					<a href="{{ post.code }}">[Code]</a> 
+					{% endif %}
+					{% if post.slides %}
+					<a href="{{ post.slides }}">[Slides]</a> 
+					{% endif %}
+					{% if post.poster %}
+					<a href="{{ post.poster }}">[Poster]</a> 
+					{% endif %}
+					{% if post.video %}
+					<a href="{{ post.video }}">[Video]</a> 
+					{% endif %}
+
+				</h5>
 			</article>
 		{% endif %}
 	{% endfor %}

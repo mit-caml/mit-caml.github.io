@@ -5,56 +5,12 @@
     <description>The Clinical and Applied Machine Learning Group.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Nov 2022 21:01:07 -0500</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2022 21:01:07 -0500</lastBuildDate>
+    <pubDate>Mon, 21 Nov 2022 21:43:03 -0500</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2022 21:43:03 -0500</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     
       <item>
-        <title>My fancy publication</title>
-        <description>&lt;p&gt;my abstract blah blah blah&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Nov 2022 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2022/11/11/my-second-publication/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/11/11/my-second-publication/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My fancy publication</title>
-        <description>&lt;p&gt;my abstract blah blah blah&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Nov 2022 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2022/11/10/my-first-publication/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/11/10/my-first-publication/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>France Removes Internet Cut-Off Threat From its Anti-Piracy Law</title>
-        <description>
-</description>
-        <pubDate>Wed, 05 Jun 2013 16:33:11 -0400</pubDate>
-        <link>http://localhost:4000/2013/06/05/france-removes-internet-cut-off/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/06/05/france-removes-internet-cut-off/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jekyll Documentation</title>
-        <description>
-</description>
-        <pubDate>Wed, 05 Jun 2013 16:03:11 -0400</pubDate>
-        <link>http://localhost:4000/2013/06/05/jekyll-documentation/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/06/05/jekyll-documentation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Welcome to the lab blog!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -69,14 +25,46 @@ To add new posts, simply add a file in the &lt;code class=&quot;language-plainte
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 05 Jun 2013 13:06:25 -0400</pubDate>
-        <link>http://localhost:4000/2013/06/05/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/06/05/welcome-to-jekyll/</guid>
+        <pubDate>Sun, 20 Nov 2022 12:06:25 -0500</pubDate>
+        <link>http://localhost:4000/2022/11/20/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/11/20/welcome-to-jekyll/</guid>
         
         
-        <category>jekyll</category>
+      </item>
+    
+      <item>
+        <title>Learning to Limit Data Collection via Scaling Laws: A Computational Interpretation for the Legal Principle of Data Minimization</title>
+        <description>&lt;p&gt;Modern machine learning systems are increasingly characterized by extensive personal data collection, despite the diminishing returns and increasing societal costs of such practices. Yet, data minimisation is one of the core data protection principles enshrined in the European Union’s General Data Protection Regulation (’GDPR’) and requires that only personal data that is adequate, relevant and limited to what is necessary is processed. However, the principle has seen limited adoption due to the lack of technical interpretation. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this work, we build on literature in machine learning and law to propose FIDO, a Framework for Inhibiting Data Overcollection. FIDO learns to limit data collection based on an interpretation of data minimization tied to system performance. Concretely, FIDO provides a data collection stopping criterion by iteratively updating an estimate of the performance curve, or the relationship between dataset size and performance, as data is acquired. FIDO estimates the performance curve via a piecewise power law technique that models distinct phases of an algorithm’s performance throughout data collection separately. Empirical experiments show that the framework produces accurate performance curves and data collection stopping criteria across datasets and feature acquisition algorithms. We further demonstrate that many other families of curves systematically overestimate the return on additional data. Results and analysis from our investigation offer deeper insights into the relevant considerations when designing a data minimization framework, including the impacts of active feature acquisition on individual users and the feasability of user-specific data minimization. We conclude with practical recommendations for the implementation of data minimization.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Jun 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2022/06/23/learning-to-limit-data/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/06/23/learning-to-limit-data/</guid>
         
-        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Better Aggregation for Test-Time Augmentation</title>
+        <description>&lt;p&gt;Test-time augmentation—the aggregation of predictions across transformed versions of a test input—is a common
+practice in image classification. Traditionally, predictions are combined using a simple average. In this paper, we present 1) experimental analyses that shed light on cases in which the simple average is suboptimal and 2) a method to address these shortcomings. A key finding is that even when test-time augmentation produces a net improvement in accuracy, it can change many correct predictions into incorrect predictions. We delve into when and why test-time augmentation changes a prediction from being correct to incorrect and vice versa. Building on these insights, we present a learning-based method for aggregating test-time augmentations. Experiments across a diverse set of models, datasets, and augmentations show that our method delivers consistent improvements over existing approaches.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Nov 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021/11/10/aggregation-test-time-augmentation/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/11/10/aggregation-test-time-augmentation/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>France Removes Internet Cut-Off Threat From its Anti-Piracy Law</title>
+        <description>
+</description>
+        <pubDate>Wed, 05 Jun 2013 16:33:11 -0400</pubDate>
+        <link>http://localhost:4000/2013/06/05/france-removes-internet-cut-off/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/06/05/france-removes-internet-cut-off/</guid>
+        
         
       </item>
     

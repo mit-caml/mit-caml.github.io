@@ -1,9 +1,8 @@
 ---
 layout: post
 type: "news"
-title:  "Welcome to Jekyll!"
-date:   2013-06-05 17:06:25
-categories: jekyll update
+title:  "Welcome to the lab blog!"
+date:   2022-11-20 17:06:25
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
