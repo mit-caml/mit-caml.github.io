@@ -3,7 +3,7 @@ layout: post
 type: "publication"
 title:  "Learning to Limit Data Collection via Scaling Laws: A Computational Interpretation for the Legal Principle of Data Minimization"
 authors: "D. Shanmugam, F. Diaz, S. Shabanian, M. Finck, A. Biega"
-venue: "FAccT 2021" 
+venue: "FAccT 2022" 
 external-url: "https://dl.acm.org/doi/abs/10.1145/3531146.3533148"
 ---
 
