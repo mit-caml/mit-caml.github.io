@@ -7,7 +7,7 @@ Maggie Makar, University of Michigan  <br>
 Davis Blalock, MosaicML <br>
 Amy Zhao, Oculus Research<br>
 Guha Balakrishnan, Rice University <br>
-Joel Brooks, Left Hand Robotics <br>
+Joel Brooks, RightHand Robotics <br>
 Jen J. Gong, HEALTH[at]SCALE <br>
 Yun Liu, Google Health<br>
 Anima Singh, Google Health<br>
