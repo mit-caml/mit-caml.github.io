@@ -231,18 +231,48 @@ img.center {
 		padding-right: 10px;
 	}
 
+	#header {
+		text-align: center;
+	}
+
+	nav ul {
+	 	display: inline-flex;
+	    list-style-type: none;
+	    padding-left: 0;
+	}
+
+	nav ul li {
+	    border-left: 2px solid;
+	}
+
+	nav ul li.first {
+	    border-left: none
+	}
+
+	#sidebar-list {
+		display: inline-flex;
+		text-align: center;
+	}
+
 	#sidebar {
 		position: relative;
-		text-align: left;
+		text-align: center;
+/*		display: flex;*/
 		width: 100%;
 		left: 0;
 		margin: 10px 10px 20px 10px;
 	}
 
-	#sidebar nav select.mnav {
+	.hometext {
+		text-align: center;
+	}
+
+	/*#sidebar nav select.mnav {
 		display: block;
 		margin-bottom: 15px;
-	}
+	}*/
+
+
 
 }
 
