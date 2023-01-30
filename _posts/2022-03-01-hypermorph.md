@@ -2,8 +2,8 @@
 layout: post
 type: "publication"
 title:  "Learning the Effect of Registration Hyperparameters with HyperMorph"
-authors: "Andrew Hoopes, Malte Hoffmann, Douglas N. Greve, Bruce Fischl, John Guttag, Adrian V. Dalca"
-venue: "Machine Learning for Biomedical Imaging, 2022"
+authors: "A. Hoopes, M. Hoffmann, D. Greve, B. Fischl, J. Guttag, A. Dalca"
+venue: "MELBA 2022"
 external-url: "https://www.melba-journal.org/pdf/2022:003.pdf"
 code: "https://ahoopes.github.io/hypermorph"
 video: "https://ahoopes.github.io/hypermorph"
