@@ -1,6 +1,6 @@
 ---
 layout: post
-type: "fun"
+type: "news"
 title:  "Harini defended her PhD!"
 date:   2023-01-22 17:06:25
 ---
