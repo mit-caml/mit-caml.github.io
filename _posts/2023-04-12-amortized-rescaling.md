@@ -5,8 +5,24 @@ title:  "Amortized Learning of Dynamic Feature Scaling for Image Segmentation"
 authors: "Jose Javier Gonzalez Ortiz, John Guttag, Adrian Dalca"
 venue: "Preprint"
 external-url: "https://arxiv.org/abs/2304.05448"
-code: "https://github.com/JJGO/amortized-feature-scaling"
+code: "https://github.com/JJGO/scale-space-hypernetworks"
 ---
 
-Convolutional neural networks (CNN) have become the predominant model for image segmentation tasks. Most CNN segmentation architectures resize spatial dimensions by a fixed factor of two to aggregate spatial context. Recent work has explored using other resizing factors to improve model accuracy for specific applications. However, finding the appropriate rescaling factor most often involves training a separate network for many different factors and comparing the performance of each model. The computational burden of these models means that in practice it is rarely done, and when done only a few different scaling factors are considered.
-In this work, we present a hypernetwork strategy that can be used to easily and rapidly generate the Pareto frontier for the trade-off between accuracy and efficiency as the rescaling factor varies. We show how to train a single hypernetwork that generates CNN parameters conditioned on a rescaling factor. This enables a user to quickly choose a rescaling factor that appropriately balances accuracy and computational efficiency for their particular needs. We focus on image segmentation tasks, and demonstrate the value of this approach across various domains. We also find that, for a given rescaling factor, our single hypernetwork outperforms CNNs trained with fixed rescaling factors.
+Convolutional Neural Networks (CNNs) are the predominant model used for a
+variety of medical image analysis tasks. At inference time, these models are
+computationally intensive, especially with volumetric data. In principle, it is
+possible to trade accuracy for computational efficiency by manipulating the
+rescaling factor in the downsample and upsample layers of CNN architectures.
+However, properly exploring the accuracy-efficiency trade-off is prohibitively
+expensive with existing models. To address this, we introduce Scale-Space
+HyperNetworks (SSHN), a method that learns a spectrum of CNNs with varying
+internal rescaling factors. A single SSHN characterizes an entire Pareto
+accuracy-efficiency curve of models that match, and occasionally surpass, the
+outcomes of training many separate networks with fixed rescaling factors. We
+demonstrate the proposed approach in several medical image analysis
+applications, comparing SSHN against strategies with both fixed and dynamic
+rescaling factors. We find that SSHN consistently provides a better
+accuracy-efficiency trade-off at a fraction of the training cost. Trained SSHNs
+enable the user to quickly choose a rescaling factor that appropriately
+balances accuracy and computational efficiency for their particular needs at
+inference.

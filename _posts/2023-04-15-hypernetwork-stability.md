@@ -1,15 +1,29 @@
 ---
 layout: post
 type: "publication"
-title:  "Non-Proportional Parametrizations for Stable Hypernetwork Learning"
+title:  "Magnitude Invariant Parametrizations Improve Hypernetwork Learning"
 authors: "Jose Javier Gonzalez Ortiz, John Guttag, Adrian Dalca"
 venue: "Preprint"
-external-url: "https://arxiv.org/abs/NNNNNNNNN"
+external-url: "https://arxiv.org/abs/2304.07645"
 code: "https://github.com/JJGO/hyperlight"
 ---
 
-In many scenarios current hypernetwork training strategies are unstable, and convergence is often far slower than for non-hypernetwork models.
-We show that this problem is linked to an issue that arises  when using common choices of hypernetwork architecture and initialization.
-We demonstrate analytically and experimentally how this numerical issue can lead to an instability during training that slows, and sometimes even prevents, convergence. We also demonstrate that popular deep learning normalization strategies fail to address these issues.
-We then propose a solution to the problem based on a revised hypernetwork formulation that uses non-proportional additive parametrizations.
-We test the proposed reparametrization on several tasks, and demonstrate that it consistently leads to more stable training, achieving faster convergence.
+Hypernetworks, neural networks that predict the parameters of another neural
+network, are powerful models that have been successfully used in diverse
+applications from image generation to multi-task learning. Unfortunately,
+existing hypernetworks are often challenging to train. Training typically
+converges far more slowly than for non-hypernetwork models, and the rate of
+convergence can be very sensitive to hyperparameter choices. In this work, we
+identify a fundamental and previously unidentified problem that contributes to
+the challenge of training hypernetworks: a magnitude proportionality between
+the inputs and outputs of the hypernetwork. We demonstrate both analytically
+and empirically that this can lead to unstable optimization, thereby slowing
+down convergence, and sometimes even preventing any learning. We present a
+simple solution to this problem using a revised hypernetwork formulation that
+we call Magnitude Invariant Parametrizations (MIP). We demonstrate the proposed
+solution on several hypernetwork tasks, where it consistently stabilizes
+training and achieves faster convergence. Furthermore, we perform a
+comprehensive ablation study including choices of activation function,
+normalization strategies, input dimensionality, and hypernetwork architecture;
+and find that MIP improves training in all scenarios. We provide easy-to-use
+code that can turn existing networks into MIP-based hypernetworks.
