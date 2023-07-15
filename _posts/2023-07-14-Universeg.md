@@ -3,7 +3,7 @@ layout: post
 type: "publication"
 title:  "UniverSeg: Universal Medical Image Segmentation"
 authors: "Victor Ion Butoi*, Jose Javier Gonzalez Ortiz*, Tianyu Ma, Mert R. Sabuncu, John Guttag, Adrian V. Dalca"
-venue: "Preprint"
+venue: "International Conference on Computer Vision (ICCV) 2023"
 external-url: "https://arxiv.org/abs/2304.06131"
 code: "https://universeg.csail.mit.edu/"
 ---
