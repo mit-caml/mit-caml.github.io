@@ -75,4 +75,14 @@ No one is surprised
 ---
 ```
 
+
+📸 Adding Fun Photos
+-----------------
+
+You take an incredible photo of members of the lab!
+
+1. Add your photo to `/images/fun`
+2. Make a low-res thumbnail of your photo using `mogrify -path thumbs -resize 500px ./images/fun/YOURPHOTO`
+
+
 That's it! Let me know if you run into issues, I would not be surprised if you do. 
