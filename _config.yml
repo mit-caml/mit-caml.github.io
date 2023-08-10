@@ -13,3 +13,7 @@ include:
 
 collections:
   - people
+
+# Used by fun gallery
+imagesurl: "/images/"
+thumbsurl: "/images/" 
