@@ -16,4 +16,4 @@ collections:
 
 # Used by fun gallery
 imagesurl: "/images/"
-thumbsurl: "/images/" 
+thumbsurl: "/thumbnails/" 
