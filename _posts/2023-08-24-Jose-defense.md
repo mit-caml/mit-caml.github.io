@@ -1,7 +1,7 @@
 ---
 layout: post
 type: "news"
-title:  "Jose defended his PhD!"
+title:  "Jose defended his PhD on ``Reconfigurable Vision Models''!"
 date:   2023-08-24 17:06:25
 ---
 

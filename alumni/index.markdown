@@ -3,7 +3,7 @@ layout: default
 title: Alumni
 ---
 <b> Ph.D. Students.</b> <br>
-Harini Suresh <br>
+Harini Suresh, Cornell Tech <br>
 Maggie Makar, University of Michigan  <br>
 Davis Blalock, MosaicML <br>
 Amy Zhao, Oculus Research<br>
