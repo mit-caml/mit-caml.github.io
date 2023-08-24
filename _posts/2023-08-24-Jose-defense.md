@@ -2,7 +2,7 @@
 layout: post
 type: "news"
 title:  "Jose defended his PhD!"
-date:   2023-01-22 17:06:25
+date:   2023-08-24 17:06:25
 ---
 
 ![image](/images/posts/Jose_defense_0.jpg)
