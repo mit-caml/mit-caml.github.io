@@ -3,6 +3,7 @@ layout: default
 title: Alumni
 ---
 <b> Ph.D. Students.</b> <br>
+Harini Suresh <br>
 Maggie Makar, University of Michigan  <br>
 Davis Blalock, MosaicML <br>
 Amy Zhao, Oculus Research<br>
@@ -18,6 +19,7 @@ Eugene Shih, Cambridge Mobile Telematics<br>
 Ali Shoeb, Wing<br>
 
 <b> MEng Students.</b> <br>
+Helen Lu <br>
 Udgam Goyal <br>
 Courtney Guo <br>
 Advaith Anand <br>
