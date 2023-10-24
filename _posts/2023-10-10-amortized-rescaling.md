@@ -1,9 +1,9 @@
 ---
 layout: post
 type: "publication"
-title:  "Amortized Learning of Dynamic Feature Scaling for Image Segmentation"
+title:  "Scale-Space Hypernetworks for Efficient Biomedical Imaging "
 authors: "Jose Javier Gonzalez Ortiz, John Guttag, Adrian Dalca"
-venue: "Preprint"
+venue: " NeurIPS 2023"
 external-url: "https://arxiv.org/abs/2304.05448"
 code: "https://github.com/JJGO/scale-space-hypernetworks"
 ---
