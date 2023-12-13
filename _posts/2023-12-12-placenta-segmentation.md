@@ -3,7 +3,7 @@ layout: post
 type: "publication"
 title:  "Shape-aware Segmentation of the Placenta in BOLD Fetal MRI Time Series"
 authors: "S. Mazdak Abulnaga, Neel Dey, Sean I. Young, Katherine Hobgood, Eileen Pan, Clinton J. Wang, P. Ellen Grant, Esra Abaci Turk, Polina Golland"
-venue: "Machine Learning for Biomedical Imaging (MELBA) Journal"
+venue: "Machine Learning for Biomedical Imaging (MELBA)"
 external-url: "https://arxiv.org/abs/2312.05148"
 code: "https://github.com/mabulnaga/automatic-placenta-segmentation/"
 ---
