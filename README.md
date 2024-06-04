@@ -82,7 +82,13 @@ No one is surprised
 You take an incredible photo of members of the lab!
 
 1. Add your photo to `/images/fun`
-2. Make a low-res thumbnail of your photo using `mogrify -path thumbs -resize 500px ./images/fun/YOURPHOTO`
+2. Make a low-res thumbnail of your photo by running `mogrify -path thumbnails -resize 500px ./images/fun/YOURPHOTO` from the root directory. I recommend 500px for the "fun" photos and 750px for the "News" photos.
 
 
-That's it! Let me know if you run into issues, I would not be surprised if you do. 
+🔧 Website Maintenance
+-----------------
+
+You may want to test your changes out locally. To do so, you want to install Ruby locally. I found (this guide)[https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route] exctremely helpful. You will next want to install Jekyll. Afterwards, you can host the website locally by running "bundle exec jekyll serve" from the root directory.
+
+
+That's it! Let me know if you run into issues.
