@@ -5,7 +5,7 @@ title: Alumni
 <b> Ph.D. Students.</b> <br>
 Jose Javier Gonzalez Ortiz, MosaicML DataBricks <br>
 Aniruddh Raghu, BigHat Biosciences <br>
-Harini Suresh, Cornell Tech <br>
+Harini Suresh, Brown University <br>
 Maggie Makar, University of Michigan  <br>
 Davis Blalock, MosaicML DataBrikcs <br>
 Amy Zhao, Oculus Research<br>
