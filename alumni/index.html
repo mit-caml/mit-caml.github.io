@@ -1,0 +1,29 @@
+---
+layout: default
+title: Alumni
+---
+<style>
+    ul.no-bullets {
+        list-style-type: none;
+        padding: 0;
+    }
+</style>
+
+<h2>Ph.D. Students</h2>
+<ul class="no-bullets">
+    {% assign sorted_alumni = site.alumni | sort: "graduated_student_number" | reverse %}
+    {% for person in sorted_alumni %}
+        {% if person.student_type == "PhD" %}
+            <li><a href="{{ person.website }}" title="{{ person.name }}"><span>{{ person.name }}</a>{% if person.company != "" %}, {% endif %}{{ person.company }}</span></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>MEng Students</h2>
+<ul class="no-bullets">
+    {% for person in sorted_alumni %}
+        {% if person.student_type == "MEng" %}
+            <li><a href="{{ person.website }}" title="{{ person.name }}"><span>{{ person.name }}</a>{% if person.company != "" %}, {% endif %}{{ person.company }}</span></li>
+        {% endif %}
+    {% endfor %}
+</ul>

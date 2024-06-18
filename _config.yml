@@ -13,6 +13,7 @@ include:
 
 collections:
   - people
+  - alumni
 
 # Used by fun gallery
 imagesurl: "/images/"
