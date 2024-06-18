@@ -1,5 +1,5 @@
 name: Welcome to CAML
-url: http://ddig.csail.mit.edu
+url: https://caml.csail.mit.edu/
 description: The Clinical and Applied Machine Learning Group.
 
 permalink: /:year/:month/:day/:title/
@@ -17,3 +17,6 @@ collections:
 # Used by fun gallery
 imagesurl: "/images/"
 thumbsurl: "/thumbnails/" 
+
+plugins:
+  - jekyll-paginate
