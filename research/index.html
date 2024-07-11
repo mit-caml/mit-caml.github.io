@@ -15,7 +15,11 @@ title: Research
 					{{ post.authors }}. <i>{{post.venue}}.</i>
 				</h2>
 				<h5>
-					<a href="{{ post.external-url }}">[Paper]</a> <a href="{{ post.url }}">[Abstract]</a> 
+					<a href="{{ post.external-url }}">[Paper]</a> 
+					<a href="{{ post.url }}">[Abstract]</a> 
+					{% if post.website %}
+					<a href="{{ post.website }}">[Website]</a> 
+					{% endif %}
 					{% if post.code %}
 					<a href="{{ post.code }}">[Code]</a> 
 					{% endif %}
@@ -28,7 +32,9 @@ title: Research
 					{% if post.video %}
 					<a href="{{ post.video }}">[Video]</a> 
 					{% endif %}
-
+					{% if post.demo %}
+					<a href="{{ post.demo }}">[Demo]</a> 
+					{% endif %}
 				</h5>
 			</article>
 		{% endif %}
