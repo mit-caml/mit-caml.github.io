@@ -6,7 +6,6 @@ authors: "S. Mazdak Abulnaga, Andrew Hoopes, Malte Hoffmann, Robin Magnet, Maks 
 venue: "International Conference on Learning Representations (2026)"
 external-url: "https://arxiv.org/pdf/2512.19928"
 ---
-```
 Accurate registration of brain MRI scans is fundamental for cross-subject analysis in neuroscientific studies. This involves aligning both the cortical surface
 of the brain and the interior volume. Traditional methods treat volumetric and
 surface-based registration separately, which often leads to inconsistencies that
@@ -23,4 +22,3 @@ deformation fields. Additionally, it is orders of magnitude faster than the stan
 method for this task, and is simpler to use because it requires no additional inputs
 beyond an MRI scan. With its superior accuracy, fast inference, and ease of use,
 NeurAlign sets a new standard for joint cortical and subcortical registration.
-```
