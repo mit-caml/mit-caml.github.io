@@ -2,7 +2,7 @@
 layout: post
 type: "publication"
 title:  "AtlasMorph: Learning conditional deformable templates for brain MRI"
-authors: "Marianne Rakic, Andrew Hoopes, S Mazdak Abulnaga, Mert R Sabuncu, John V Guttag, Adrian V Dalca"
+authors: "Marianne Rakic, Andrew Hoopes, S. Mazdak Abulnaga, Mert R Sabuncu, John V Guttag, Adrian V Dalca"
 venue: "Medical Image Analysis"
 external-url: "https://arxiv.org/pdf/2511.13609"
 ---
