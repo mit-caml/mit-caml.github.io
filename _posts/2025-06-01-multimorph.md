@@ -8,7 +8,7 @@ external-url: "https://openaccess.thecvf.com/content/CVPR2025/html/Abulnaga_Mult
 code: "https://github.com/mabulnaga/multimorph"
 page: "https://people.csail.mit.edu/abulnaga/multimorph/index.html"
 ---
-
+```
 We present MultiMorph, a fast and efficient method for constructing anatomical atlases on the fly. Atlases capture the
 canonical structure of a collection of images and are essential for quantifying anatomical variability across populations. However, current atlas construction methods often
 require days to weeks of computation, thereby discouraging
@@ -21,3 +21,4 @@ population settings, with a 100-fold reduction in time. This
 makes MultiMorph an accessible framework for biomedical
 researchers without machine learning expertise, enabling
 rapid, high-quality atlas generation for diverse studies.
+```
