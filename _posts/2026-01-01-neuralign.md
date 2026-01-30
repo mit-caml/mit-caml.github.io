@@ -3,7 +3,7 @@ layout: post
 type: "publication"
 title:  "Unified Brain Surface and Volume Registration"
 authors: "S. Mazdak Abulnaga, Andrew Hoopes, Malte Hoffmann, Robin Magnet, Maks Ovsjanikov, Lilla Zollei, John Guttag, Bruce Fischl*, Adrian V. Dalca*"
-venue: "International Conference on Learning Representations (2016)"
+venue: "International Conference on Learning Representations (2026)"
 external-url: "https://arxiv.org/pdf/2512.19928"
 ---
 ```
