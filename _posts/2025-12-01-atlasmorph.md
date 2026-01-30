@@ -6,7 +6,6 @@ authors: "Marianne Rakic, Andrew Hoopes, S Mazdak Abulnaga, Mert R Sabuncu, John
 venue: "Medical Image Analysis"
 external-url: "https://arxiv.org/pdf/2511.13609"
 ---
-```
 Deformable templates, or atlases, are images that represent
 a prototypical anatomy for a population, and are often enhanced with probabilistic anatomical label maps. They are
 commonly used in medical image analysis for population
@@ -23,4 +22,3 @@ templates. We demonstrate our method on a compilation of
 3D brain MRI datasets, and show that it can learn highquality templates that are representative of populations. We
 find that annotated conditional templates enable better registration than their unlabeled unconditional counterparts,
 and outperform other templates construction methods.
-```
