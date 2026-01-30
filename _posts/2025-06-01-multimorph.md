@@ -6,7 +6,7 @@ authors: "S. Mazdak Abulnaga, Andrew Hoopes, Neel Dey, Malte Hoffmann, Bruce Fis
 venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025"
 external-url: "https://openaccess.thecvf.com/content/CVPR2025/html/Abulnaga_MultiMorph_On-demand_Atlas_Construction_CVPR_2025_paper.html"
 code: "https://github.com/mabulnaga/multimorph"
-page: "https://people.csail.mit.edu/abulnaga/multimorph/index.html"
+website: "https://people.csail.mit.edu/abulnaga/multimorph/index.html"
 ---
 ```
 We present MultiMorph, a fast and efficient method for constructing anatomical atlases on the fly. Atlases capture the
