@@ -1,8 +1,18 @@
 <style>
-  .fun-image-gallery {overflow: auto; margin-left: -1%!important;} */
-  .fun-image-gallery a {float: left; display: block; margin: 1% 1% 1% 1%; width: 30%; text-align: center; text-decoration: none!important;}
+  .fun-image-gallery {display: flex; flex-wrap: wrap; justify-content: space-between;}
+  .fun-image-gallery::after {content: ""; width: 49%;}
+  .fun-image-gallery .box {flex-basis: auto; width: 49%; padding: 0; margin: 0 0 2% 0;}
+  .fun-image-gallery a {display: block; text-align: center; text-decoration: none!important; border-bottom: none; padding-bottom: 0;}
+  .fun-image-gallery a:hover {background-color: transparent;}
   .fun-image-gallery a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-  .fun-image-gallery a img {width: 100%; display: block;}
+  .fun-image-gallery a img {width: 100%; height: auto; aspect-ratio: 4 / 3; padding: 0; object-fit: cover; display: block;}
+  .fun-lightbox {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 1000; cursor: zoom-out; align-items: center; justify-content: center;}
+  .fun-lightbox.open {display: flex;}
+  .fun-lightbox img {max-width: 85%; max-height: 95%; object-fit: contain;}
+  .fun-lightbox button {position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); color: #fff; border: none; border-radius: 50%; width: 48px; height: 48px; font-size: 28px; line-height: 48px; padding: 0; cursor: pointer;}
+  .fun-lightbox button:hover {background: rgba(255,255,255,0.35);}
+  .fun-lightbox .prev {left: 2%;}
+  .fun-lightbox .next {right: 2%;}
 </style>
 
 <div class ="fun-image-gallery">
@@ -20,6 +30,35 @@
   {% endfor %}
  </div>
 
-
-  
-
+<div class="fun-lightbox" id="fun-lightbox">
+  <button class="prev" aria-label="Previous photo">&#8249;</button>
+  <img alt="">
+  <button class="next" aria-label="Next photo">&#8250;</button>
+</div>
+<script>
+  (function () {
+    var box = document.getElementById('fun-lightbox');
+    var big = box.querySelector('img');
+    var links = Array.prototype.slice.call(document.querySelectorAll('.fun-image-gallery a'));
+    var current = 0;
+    function show(i) {
+      current = (i + links.length) % links.length;
+      big.src = links[current].href;
+      big.alt = links[current].title;
+      box.classList.add('open');
+    }
+    function close() { box.classList.remove('open'); big.removeAttribute('src'); }
+    links.forEach(function (a, i) {
+      a.addEventListener('click', function (e) { e.preventDefault(); show(i); });
+    });
+    box.addEventListener('click', close);
+    box.querySelector('.prev').addEventListener('click', function (e) { e.stopPropagation(); show(current - 1); });
+    box.querySelector('.next').addEventListener('click', function (e) { e.stopPropagation(); show(current + 1); });
+    document.addEventListener('keydown', function (e) {
+      if (!box.classList.contains('open')) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowLeft') show(current - 1);
+      else if (e.key === 'ArrowRight') show(current + 1);
+    });
+  })();
+</script>
