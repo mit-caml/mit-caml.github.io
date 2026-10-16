@@ -2,3 +2,6 @@ _site/*
 *.DS_Store
 */.DS_Store
 write_alumni.py
+vendor/
+.bundle/
+.jekyll-metadata
