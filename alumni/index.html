@@ -30,3 +30,14 @@ title: Alumni
         {% endif %}
     {% endfor %}
 </ul>
+
+
+{% assign urop_alumni = sorted_alumni | where: "student_type", "UROP" %}
+{% if urop_alumni.size > 0 %}
+<h2>UROP Students</h2>
+<ul class="no-bullets">
+    {% for person in urop_alumni %}
+        <li>{% if person.website %}<a href="{{ person.website }}" title="{{ person.name }}">{{ person.name }}</a>{% else %}<span class="no-link">{{ person.name }}</span>{% endif %}{% if person.company != "" %}, {% endif %}{{ person.company }}</li>
+    {% endfor %}
+</ul>
+{% endif %}

@@ -76,6 +76,27 @@ No one is surprised
 ```
 
 
+🎓 Adding an Alumnus
+-----------------
+
+1. Create a file named "Your Name.md" in the "\_alumni" directory, containing:
+
+```
+---
+name: "Your Name"
+company: "Where you are now"
+student_type: "MEng"
+graduated_student_number: 12
+website: "https://your-website.com"
+---
+```
+
+- `student_type` must be `PhD`, `MEng`, or `UROP`. It decides which section of the alumni page you appear in (the UROP section only shows up once someone is listed).
+- `graduated_student_number` sets the order within a section (highest first, so the most recent graduate is on top). Use the next number after the highest one in your `student_type`; each type has its own sequence. Write it as a plain number, without quotes, or the page will sort it as text and put you in the wrong place.
+- `website` is optional. Without it your name shows as plain text instead of a link. Include http:// or https:// at the beginning.
+- `company` can be left as `""`.
+
+
 📸 Adding Fun Photos
 -----------------
 
