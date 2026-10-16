@@ -2,5 +2,5 @@
 name: "Helen Lu"
 company: ""
 student_type: "MEng"
-graduated_student_number: "8"
+graduated_student_number: 8
 ---

@@ -2,5 +2,5 @@
 name: "Advaith Anand"
 company: ""
 student_type: "MEng"
-graduated_student_number: "5"
+graduated_student_number: 5
 ---

@@ -2,5 +2,5 @@
 name: "Akhil Nistala"
 company: ""
 student_type: "MEng"
-graduated_student_number: "1"
+graduated_student_number: 1
 ---
