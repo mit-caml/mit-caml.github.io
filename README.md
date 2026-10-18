@@ -1,7 +1,7 @@
 CAML Lab Website
 ======================
 
-📸 Updating a Photo
+📸 Adding a Lab Member
 ---------
 1. Add your photo under "images/people" directory.
 2. Create a markdown file named "Your-Name.md" in the "\_people" directory, containing the following (filled out with your information, instead).  If you have no website, fill this in as "https://mit-caml.github.io".
